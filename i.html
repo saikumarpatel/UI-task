@@ -1,0 +1,35 @@
+<body>
+  <style>
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+</style>
+    <h1 style="text-align: center;">Customer</h1>
+    <form action="/submit.py" method="get" >
+         <div class="center">
+                 <p>
+                      Search stock
+                      <select type="text" value="" name="Search stock">
+                          <option>dbs</option>
+
+                      </select>
+                  </p>
+        <p>Order type: <input type="text"
+                           size="65" name="order type" /></p>
+        <p>Quantity: <input type="text"
+                            size="65" name="Quantity" /></p>
+        <br />
+        <p>Price: <input type="text"
+                             size="65" name="Price" /></p>
+        <br />
+        <p>
+
+            <input type="submit"
+                   value="send" name="Submit" />
+            <input type="reset"
+                   value="Reset" name="Reset" />
+        </p>
+        </div>
+    </form>
+</body>
