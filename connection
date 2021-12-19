@@ -1,0 +1,15 @@
+
+
+mycursor = mydb.cursor()
+
+mycursor.execute("CREATE TABLE CREATE TABLE BookOrder (
+S.No int NOT NULL AUTO_INCREMENT,
+Name varchar(65),
+Quantity int,
+Ordern type varchar(65),
+ExecutedQty int,
+Price int,
+Order Satus Varchar(65),
+Start date DATE
+)")
+
